@@ -1,0 +1,27 @@
+{
+  "query": "SELECT Name, ApiVersion, NamespacePrefix FROM ApexClass",
+  "status": 0,
+  "records": [
+    {
+      "Name": "DeveloperEditionUtils",
+      "ApiVersion": 64,
+      "NamespacePrefix": "devedapp"
+    },
+    {
+      "Name": "DeveloperEditionUtilsTest",
+      "ApiVersion": 64,
+      "NamespacePrefix": "devedapp"
+    },
+    {
+      "Name": "PostInstallScript",
+      "ApiVersion": 64,
+      "NamespacePrefix": "devedapp"
+    },
+    {
+      "Name": "PostInstallScriptTest",
+      "ApiVersion": 64,
+      "NamespacePrefix": "devedapp"
+    }
+  ],
+  "message": null
+}

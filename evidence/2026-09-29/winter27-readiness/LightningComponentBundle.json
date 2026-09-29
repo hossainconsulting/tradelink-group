@@ -1,0 +1,35 @@
+{
+  "metadataType": "LightningComponentBundle",
+  "status": 0,
+  "components": [
+    {
+      "fullName": "devedapp__getStartedDataCloud",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__getStartedSfdx",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__sharedStyles",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__getStartedMuleSoft",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__utils",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__welcome",
+      "namespacePrefix": "devedapp"
+    },
+    {
+      "fullName": "devedapp__getStartedAgentforce",
+      "namespacePrefix": "devedapp"
+    }
+  ],
+  "message": null
+}

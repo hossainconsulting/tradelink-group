@@ -1,0 +1,27 @@
+{
+  "command": "sf apex run test -o tradelink --test-level RunAllTestsInOrg --wait 1 --json",
+  "status": 0,
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "testRunId": "707bm00001JhFiD"
+  },
+  "tests": [
+    {
+      "FullName": "devedapp.PostInstallScriptTest.testPostInstallScript",
+      "Outcome": "Pass",
+      "Message": null
+    },
+    {
+      "FullName": "devedapp.DeveloperEditionUtilsTest.testGetOrgId",
+      "Outcome": "Pass",
+      "Message": null
+    }
+  ],
+  "message": null
+}

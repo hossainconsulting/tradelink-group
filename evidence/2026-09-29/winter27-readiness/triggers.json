@@ -1,0 +1,6 @@
+{
+  "query": "SELECT Name, ApiVersion, NamespacePrefix FROM ApexTrigger",
+  "status": 0,
+  "records": [],
+  "message": null
+}

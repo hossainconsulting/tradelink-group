@@ -1,0 +1,735 @@
+{
+  "query": "SELECT DeveloperName, Title, Status, DueDate, ReleaseLabel, Description FROM ReleaseUpdate",
+  "status": 0,
+  "records": [
+    {
+      "DeveloperName": "A11yResizeReflow",
+      "Title": "Enable Accessibility Enhancements for Date Pickers, Popovers, Bottom Utility Bars, Record Headers",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "To help meet Web Content Accessibility Guidelines (WCAG) 2.2 for Resize and Reflow, enable Lightning Experience to adapt the behavior of date pickers, popovers, bottom utility bars, and record headers when viewed at high magnification.\n            <br>\n            This release update is dependent on the <b>Enable Accessibility Enhancements for Page Headers and Modal Windows When Zoom Is Greater Than 200%</b> release update. Make sure to enable that update first."
+    },
+    {
+      "DeveloperName": "A11yResizeReflowPhase2",
+      "Title": "Enable Accessibility Enhancements for Cards, Docked Containers, Menu Lists, and Panels",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "To help meet Web Content Accessibility Guidelines (WCAG) 2.2 for Resize and Reflow, enable Lightning Experience to adapt the behavior of cards, docked containers, menu lists, and panels when viewed at high magnification.\n            <br>\n            This release update is dependent on these release updates.\n            <ul>\n                <li><b>Enable Accessibility Enhancements for Page Headers and Modal Windows When Zoom Is Greater Than 200%</b></li>\n                <li><b>Enable Accessibility Enhancements for Date Pickers, Popovers, Bottom Utility Bars, Record Headers</b></li>\n            </ul>\n            Make sure to enable these updates first."
+    },
+    {
+      "DeveloperName": "A11yResizeReflowPhase3",
+      "Title": "Enable Accessibility Enhancements for To Do Lists, and Lightning Dual List-boxes When Zoom is Greater Than 200%",
+      "Status": "Invocable",
+      "DueDate": "2027-01-01",
+      "ReleaseLabel": "Spring '27",
+      "Description": "To help meet Web Content Accessibility Guidelines (WCAG) 2.2 for Resize and Reflow, enable Lightning Experience to adapt the behavior of To Do Lists, and Lightning dual list-boxes when viewed at high magnification."
+    },
+    {
+      "DeveloperName": "ApexAsyncLargeTxnReleaseUpdate",
+      "Title": "Update Apex Code and Flows for Changed Sharing Recalculation Behavior",
+      "Status": "Invocable",
+      "DueDate": "2027-01-01",
+      "ReleaseLabel": "Spring '27",
+      "Description": "To optimize performance after large-scale updates to groups or roles, Salesforce performs some sharing recalculations asynchronously. Update Apex code and flows that update group membership or roles if they rely on synchronous sharing recalculation."
+    },
+    {
+      "DeveloperName": "ApexBatchActionsFix",
+      "Title": "Sort Apex Batch Action Results by Request Order",
+      "Status": "Invoked",
+      "DueDate": "2026-05-01",
+      "ReleaseLabel": "Summer '26",
+      "Description": "With this update enabled, Apex batch action results are displayed in the order the requests are received. Currently, error-prone requests are prioritized at the top of the result list, while successful ones are positioned at the bottom."
+    },
+    {
+      "DeveloperName": "ApexBlockPackagedExecAnon",
+      "Title": "Block Apex Anonymous Code Execution from Managed Packages",
+      "Status": "Invocable",
+      "DueDate": "2027-05-01",
+      "ReleaseLabel": "Summer '27",
+      "Description": "This update prevents managed package session IDs from authenticating anonymous Apex code blocks, which improves the org security."
+    },
+    {
+      "DeveloperName": "ApexNoArgConstructorAccessCriticalUpdate",
+      "Title": "Restrict Reflective Access to Non-Global Constructors in Packages",
+      "Status": "Pending",
+      "DueDate": "2020-08-19",
+      "ReleaseLabel": "Summer '20 Patch 18.0",
+      "Description": "When this update is enabled, regardless of API version, you can initiate only Apex classes that have a no-arguments constructor that is visible to the code running Type.newInstance."
+    },
+    {
+      "DeveloperName": "ApexPropertyGetterCRUC",
+      "Title": "Enforce Access Modifiers on Apex Properties in Lightning Component Markup",
+      "Status": "Invoked",
+      "DueDate": "2021-05-01",
+      "ReleaseLabel": "Summer '21",
+      "Description": "This update makes Lightning components consistent with the use of Apex properties in other contexts. For example, a markup expression can no longer access an Apex property with a private Apex getter."
+    },
+    {
+      "DeveloperName": "ApexRFC7230RestHeaders",
+      "Title": "Enforce RFC 7230 Validation for Apex RestResponse Headers",
+      "Status": "Pending",
+      "DueDate": "2024-01-01",
+      "ReleaseLabel": "Spring '24",
+      "Description": "When this update is enabled, regardless of API version, REST response headers defined in Apex via the <code>RestResponse.addHeader(name, value)</code> method have the header names validated based on <a href=\"https://www.rfc-editor.org/rfc/rfc7230#section-3.2\">RFC 7230</a>."
+    },
+    {
+      "DeveloperName": "ApiVersions21to30Retirement",
+      "Title": "Salesforce Platform API Versions 21.0 through 30.0 Retirement",
+      "Status": "Info",
+      "DueDate": "2025-05-01",
+      "ReleaseLabel": "Summer '25",
+      "Description": "Versions 21.0 through 30.0 of the Salesforce Platform SOAP, REST, and Bulk APIs will be end of life and no longer functional in the Summer '25 release. Applications and integrations must be modified to consume the latest supported API version prior to the release rollout."
+    },
+    {
+      "DeveloperName": "ApiVersions31to40Retirement",
+      "Title": "Salesforce Platform API Versions 31.0 through 40.0 Retirement",
+      "Status": "Nascent",
+      "DueDate": "2028-05-01",
+      "ReleaseLabel": "Summer '28",
+      "Description": "Versions 31.0 through 40.0 of the Salesforce Platform SOAP, REST, and Bulk APIs will be end of life and no longer functional in the Summer '28 release. Applications and integrations must be modified to consume the latest supported API version prior to the release rollout."
+    },
+    {
+      "DeveloperName": "ApiVersions7to20Retirement",
+      "Title": "Salesforce Platform API Versions 7.0 through 20.0 Retirement",
+      "Status": "Info",
+      "DueDate": "2022-05-01",
+      "ReleaseLabel": "Summer '22",
+      "Description": "Versions 7.0 through 20.0 of the Salesforce Platform SOAP, REST, and Bulk APIs will be deprecated and no longer supported in the Summer '21 release. Applications should be modified to consume the latest available API version."
+    },
+    {
+      "DeveloperName": "ApprouterIncorrectInstancedURLsDeprecation",
+      "Title": "Update Instanced URLs in API Traffic",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "To prevent disruption when Salesforce ends support for API traffic that uses an incorrect instanced URL, make sure that API traffic to your org uses the org’s My Domain login URL."
+    },
+    {
+      "DeveloperName": "AuraApexCtrlAuthUserAccessCheckCRUC",
+      "Title": "Restrict Access to @AuraEnabled Apex Methods for Authenticated Users Based on User Profile",
+      "Status": "Invoked",
+      "DueDate": "2020-09-01",
+      "ReleaseLabel": "Winter '21",
+      "Description": "This update gives you more control over which authenticated users can access Apex classes containing @AuraEnabled methods. When this update is activated, an authenticated user can access an @AuraEnabled Apex method only when the user’s profile allows access to the Apex class."
+    },
+    {
+      "DeveloperName": "AuraApexCtrlGuestUserAccessCheckCRUC",
+      "Title": "Restrict Access to @AuraEnabled Apex Methods for Guest and Portal Users Based on User Profile",
+      "Status": "Invoked",
+      "DueDate": "2020-09-01",
+      "ReleaseLabel": "Winter '21",
+      "Description": "This update gives you more control over which guest, portal, or community users can access Apex classes containing @AuraEnabled methods. Add guest user profile access to any @AuraEnabled Apex class used by a community or portal.<br/> When this update is activated, a guest, portal, or community user can access an @AuraEnabled Apex method only when the user’s profile allows access to the Apex class."
+    },
+    {
+      "DeveloperName": "AuraComponentAccessFix",
+      "Title": "Enable Aura Component Access Fix",
+      "Status": "Invoked",
+      "DueDate": "2021-09-01",
+      "ReleaseLabel": "Winter '22",
+      "Description": "This update fixes a bug in Aura‘s Component access controls."
+    },
+    {
+      "DeveloperName": "AuraCorsAllowlistSecurityFix",
+      "Title": "Enforce CORS Allowlist for Lightning Apps",
+      "Status": "Invoked",
+      "DueDate": "2022-01-01",
+      "ReleaseLabel": "Spring '22",
+      "Description": "<p>The Cross-Origin Resource Sharing (CORS) allowlist in Setup isn’t currently enforced for Lightning apps. This update enforces the allowlist. Cross-origin requests to Lightning apps are blocked unless the request comes from a URL listed in your org’s CORS allowlist.</p>\n        <br/>\n        <p>CORS enables web browsers to request resources from origins other than their own. For example, using CORS, JavaScript code at https://www.example.com could request a resource from https://www.salesforce.com. To access Lightning Out from JavaScript code in a web browser, add the origin requesting the code to your CORS allowlist in Setup.</p>"
+    },
+    {
+      "DeveloperName": "AuraCsrfEnhanceSecurityFix",
+      "Title": "Security Enhancements for CSRF Tokens for Lightning Apps",
+      "Status": "Invoked",
+      "DueDate": "2023-09-01",
+      "ReleaseLabel": "Winter '24",
+      "Description": "<p>This update enforces the generation of a different cross-site request forgery (CSRF) token for each Lightning app, which ensures that a token is used only in its intended context. The update also improves the handling for invalid and expired tokens.</p>"
+    },
+    {
+      "DeveloperName": "AuraSObjectJsonFilter",
+      "Title": "Remove Non-Public Fields from Custom Object Data in Aura Action Responses",
+      "Status": "Invocable",
+      "DueDate": "2027-01-01",
+      "ReleaseLabel": "Spring '27",
+      "Description": "To improve security, Salesforce is removing non-public system fields from custom object data returned in Aura action responses."
+    },
+    {
+      "DeveloperName": "BlobToPdfVisualforcePdfRenderer",
+      "Title": "Use Visualforce PDF Rendering Service with Apex Blob.toPdf()",
+      "Status": "Invoked",
+      "DueDate": "2026-05-01",
+      "ReleaseLabel": "Summer '26",
+      "Description": "With this update enabled, the Apex <code>Blob.toPdf()</code> method for PDF rendering uses the same rendering service as Visualforce. The Visualforce PDF rendering service offers improvements such as additional fonts and multibyte character support. This change makes PDF rendering more consistent on the Salesforce Platform."
+    },
+    {
+      "DeveloperName": "BotFlowUsesUserCtxtCRUC",
+      "Title": "Run Flows in Bot User Context",
+      "Status": "Invoked",
+      "DueDate": "2024-09-01",
+      "ReleaseLabel": "Winter '25",
+      "Description": "With this update enabled, a flow initiated by a bot uses the user profile and permission sets associated with the bot to determine the object permissions and field-level access of the flow."
+    },
+    {
+      "DeveloperName": "CISignalsApexInputVariableUpdate",
+      "Title": "Use an Apex-Defined Variable for all Intelligence Signal Types",
+      "Status": "Invoked",
+      "DueDate": "2025-01-01",
+      "ReleaseLabel": "Spring '25",
+      "Description": "This release update adds a new intelligenceSignals flow input parameter that contains detected conversation intelligence signals. Use this Apex-defined input parameter for your Recommendation Strategy and autolaunched flows linked to a Conversation Intelligence rule."
+    },
+    {
+      "DeveloperName": "CISignalsInvocationPayloadReleaseUpdate",
+      "Title": "Pass the Conversation Intelligence Rule Name As Input to a Flow",
+      "Status": "Invoked",
+      "DueDate": "2024-09-01",
+      "ReleaseLabel": "Winter '25",
+      "Description": "This release update adds a new ruleDevName flow input parameter that’s sent to  Recommendation Strategy and autolaunched flows linked to the Conversation Intelligence rule. The input parameter contains the developer name of the rule."
+    },
+    {
+      "DeveloperName": "ClientSecretManageSharing",
+      "Title": "Use REST API for Access to External Client App OAuth Consumer Credentials",
+      "Status": "Info",
+      "DueDate": "2024-09-01",
+      "ReleaseLabel": "Winter '25",
+      "Description": "<p>To follow recommended security standards, use the new <b>credentials</b> Connect REST API resource instead of Metadata API to access External Client App OAuth consumer credentials.</p>"
+    },
+    {
+      "DeveloperName": "ComponentAccessibilityWCAGResizeReflowSC",
+      "Title": "Enable Accessibility Enhancements for Page Headers and Modal Windows When Zoom Is Greater Than 200%",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "To help meet Web Content Accessibility Guidelines (WCAG) 2.2 for Resize and Reflow, enable Lightning Experience to adapt the behavior of page headers and modal windows when viewed at high magnification. This is the beginning of our effort to comply with WCAG 2.2 Resize and Reflow guidelines. Expect accessibility enhancements to other UI elements in future release updates."
+    },
+    {
+      "DeveloperName": "ConversationEntryAccessUpdate",
+      "Title": "User Permissions Required for Gate Access to Conversation Entries",
+      "Status": "Invoked",
+      "DueDate": "2021-04-04",
+      "ReleaseLabel": "Summer '21",
+      "Description": "This update allows admins with the org pref CheckCEUserPerm enabled to customize access to Conversation Entries with the Access Conversation Entries user permission."
+    },
+    {
+      "DeveloperName": "CreateVerifyDefaultNoReplyOrgWideAddress",
+      "Title": "Create and Verify Your Default No-Reply Organization-Wide Email Address To Send Email",
+      "Status": "Info",
+      "DueDate": "2024-09-01",
+      "ReleaseLabel": "Winter '25",
+      "Description": "After Winter '25, to comply with increased email security standards, orgs are required to create and verify a Default No-reply address in Organization-Wide Email Address settings."
+    },
+    {
+      "DeveloperName": "CrossOrgAdapterLegacyAuthRetirementReleaseUpdate",
+      "Title": "Retire Legacy Authentication for Salesforce Connect Cross-Org Adapter",
+      "Status": "Info",
+      "DueDate": "2027-01-01",
+      "ReleaseLabel": "Spring '27",
+      "Description": "In the Spring '27 release, the legacy username/password (SOAP login()) and OAuth token\n            authentication for Salesforce Connect cross-org external data sources is being retired. Migrate all\n            cross-org external data sources to named credentials before this update is enforced."
+    },
+    {
+      "DeveloperName": "CrossOrgEnforcementReleaseUpdate",
+      "Title": "Allow Only Trusted Cross-Org Redirections",
+      "Status": "Info",
+      "DueDate": "2024-05-01",
+      "ReleaseLabel": "Summer '24",
+      "Description": "To protect your users and network, add the specific Salesforce org URLs that you trust to the Trusted URLs for Redirects allowlist. Users can’t access a different Salesforce org, including its publicly served pages and content, from your Salesforce org unless the URL is on the allowlist."
+    },
+    {
+      "DeveloperName": "DeprecateDisableEmailChangeVerification",
+      "Title": "Adopt Authorized Email Domains",
+      "Status": "Info",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "If you previously worked with Salesforce Customer Support to disable email change verifications, set up authorized email domains instead. Salesforce is retiring this exemption process of disabling this feature, and authorized email domains provide the same benefit."
+    },
+    {
+      "DeveloperName": "DoubleNavApi",
+      "Title": "Prevent consecutive API navigation calls",
+      "Status": "Invocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This release update has been postponed indefinitely while we change the implementation to reduce customer impact. The release update won’t be enforced in its present form. Don’t enable it."
+    },
+    {
+      "DeveloperName": "ESAMonitoringReleaseUpdate",
+      "Title": "Monitor Live Conversations Between AI Agents and Your Customers",
+      "Status": "Info",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "<p>To ensure that AI agent conversations align with customer expectations and your business objectives, enable supervisors to monitor them. Supervisors can ensure that AI agents are effectively helping your customers and prospects and operating within the guardrails defined for them.</p>\n                <p>If needed, a supervisor can transfer the conversation to a human representative.</p>"
+    },
+    {
+      "DeveloperName": "EmailToCoreMigrationReleaseUpdate",
+      "Title": "Update Einstein Activity Capture and Migrate Email to Sync as Salesforce Activity",
+      "Status": "Info",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "Update Einstein Activity Capture and migrate existing email data to the new data structure. Captured email data is now stored as Salesforce activity, making it available to standard reports and tools. After you start the migration, the process runs and completes automatically."
+    },
+    {
+      "DeveloperName": "EmailsimpleRespectProfiles",
+      "Title": "Enable EmailSimple Invocable Action to Respect Organization-Wide Profile Settings",
+      "Status": "Invoked",
+      "DueDate": "2024-05-01",
+      "ReleaseLabel": "Summer '24",
+      "Description": "With this update enabled, the EmailSimple invocable action adheres to organization-wide email address profile settings."
+    },
+    {
+      "DeveloperName": "EnablePSAExpirationUI",
+      "Title": "Enable Permission Set Expiration and Enhanced UI",
+      "Status": "Invoked",
+      "DueDate": "2022-09-01",
+      "ReleaseLabel": "Winter '23",
+      "Description": "With this update enabled, permission set and permission set group assignments use a new Lightning interface and an improved workflow. Also, you have the option to assign an expiration date to each permission set and permission set groups"
+    },
+    {
+      "DeveloperName": "EnforceDataAccessInFlowFormulas",
+      "Title": "Enforce Data Access in Flow Merge Fields",
+      "Status": "Pending",
+      "DueDate": "2021-05-01",
+      "ReleaseLabel": "Summer '21",
+      "Description": "This update enforces the running user’s data access when Flow Builder uses a merge field to access a field on a related record."
+    },
+    {
+      "DeveloperName": "EnforceEmailVerificationForUsersCreateBefore204",
+      "Title": "Confirm Verified Email Addresses for Users Created in 2016 and Earlier",
+      "Status": "Info",
+      "DueDate": "2025-09-01",
+      "ReleaseLabel": "Winter '26",
+      "Description": "To comply with the latest email security standards, only users with a verified email address can send email from Salesforce. This change affects user accounts created on or before November 1, 2016."
+    },
+    {
+      "DeveloperName": "EnforceNavMenuUserAccessInApexReleaseUpdate",
+      "Title": "Apply User Access Permissions to Navigation Menus Retrieved by Apex in Experience Cloud Sites",
+      "Status": "Invoked",
+      "DueDate": "2023-01-01",
+      "ReleaseLabel": "Spring '23",
+      "Description": "This update ensures that, when you use an Apex controller in a custom component to query the NavigationLinkSet or NavigationMenuItem objects in an Experience Cloud site, your users can access navigation menus only in Networks that they’re a member of. Navigation menus that are queried using Connect APIs already enforce user access permissions and are therefore unaffected by this change."
+    },
+    {
+      "DeveloperName": "EventLogFileOptIn",
+      "Title": "Opt In for Event Log File Generation",
+      "Status": "Info",
+      "DueDate": "2023-05-01",
+      "ReleaseLabel": "Summer '23",
+      "Description": "This update gives you the option to opt in or out of generating and receiving event log files for your org. Salesforce provides this preference setting now so that you can turn on or off event log file generation in advance."
+    },
+    {
+      "DeveloperName": "ExternalServicesRetireV1CRUC",
+      "Title": "Migrate Legacy External Services to the Current External Services Version",
+      "Status": "Info",
+      "DueDate": "2021-05-01",
+      "ReleaseLabel": "Summer '21",
+      "Description": "Legacy External Services begins its phased retirement in Spring '21. To prepare for this retirement and take advantage of the new features, migrate your Legacy External Services to the current External Services version as soon as possible."
+    },
+    {
+      "DeveloperName": "FlexTemplateRemovalReleaseUpdate",
+      "Title": "Enhance Flexibility and Reusability of Prompt Flows",
+      "Status": "Invoked",
+      "DueDate": "2024-12-08",
+      "ReleaseLabel": "Spring '25",
+      "Description": "This update removes the ability to specify a flex prompt template type from a template-triggered prompt flow. Instead, create template-triggered prompt flows that use manual inputs because the flows aren’t limited to a single prompt template type. Before enabling this update,  you must update existing flows that reference flex prompt template types to use manual inputs."
+    },
+    {
+      "DeveloperName": "FlowApexCpuTimingReleaseUpdate",
+      "Title": "Accurately Measure the CPU Time Consumption of Flows and Processes",
+      "Status": "Invoked",
+      "DueDate": "2022-05-01",
+      "ReleaseLabel": "Summer '22",
+      "Description": "This update lets Salesforce accurately measure, log, and limit the CPU time consumed by flows and processes."
+    },
+    {
+      "DeveloperName": "FlowApexSharingReleaseUpdate",
+      "Title": "Enforce Sharing Rules when Apex Launches a Flow",
+      "Status": "Nascent",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This update was scheduled to be enforced in Winter ‘25.  Starting Winter ’25, Salesforce no longer enforces this update, but we recommend that you enable it. When this update is enabled, an autolaunched flow that runs in the default context enforces sharing rules when an Apex class launches the flow. To enforce sharing, the Apex class must be declared using the with sharing keyword."
+    },
+    {
+      "DeveloperName": "FlowNullInFormulaCRUC",
+      "Title": "Check for Null Record Variables or Null Values of Lookup Relationship Fields in Process and Flow Formulas",
+      "Status": "Invoked",
+      "DueDate": "2022-01-01",
+      "ReleaseLabel": "Spring '22",
+      "Description": "This update enables process and flow formulas to reference a record’s field when the field is accessed via a null lookup relationship field or null record variable."
+    },
+    {
+      "DeveloperName": "FlowNullPreviousValueFix",
+      "Title": "Evaluate Criteria Based on Original Record Values in Process Builder",
+      "Status": "Invocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This update fixes a bug with the evaluation criteria in processes that have multiple criteria and a record update."
+    },
+    {
+      "DeveloperName": "FlowSitesUsageDeprecationReleaseUpdate",
+      "Title": "Restrict User Access to Run Flows",
+      "Status": "Invoked",
+      "DueDate": "2025-09-01",
+      "ReleaseLabel": "Winter '26",
+      "Description": "With this update enabled, Salesforce restricts a user's ability to run a flow. A user must be granted the correct profile or permission set to run the flow. When enabled, this release update deprecates the FlowSites license."
+    },
+    {
+      "DeveloperName": "GuestUserEmailSpoofing",
+      "Title": "Restrict Emails Sent from Unverified Email Addresses by the Guest User",
+      "Status": "Info",
+      "DueDate": "2023-05-10",
+      "ReleaseLabel": "Summer '23",
+      "Description": "<p>To improve security standards, Salesforce is blocking any emails sent from an unverified email address in the guest user record.</p>\n        <br>\n        <p>If you have any custom implementations with Apex or flows that use emails sent from guest user records, you may need to make some changes to the guest user record to continue sending emails.</p>\n        <br>\n        <p>Follow these steps to continue sending emails from the guest user record: </p>\n        <br>\n        <ul>\n            <li>Create an organization-wide email address and verify it.</li>\n            <li>Assign the org-wide email address to the guest user record.</li>\n        </ul>\n        <br>\n        <p>This release update is enforced with the Summer ’23 release. Check <a href=\"https://trust.salesforce.com/\" target=\"_blank\">Salesforce Trust</a> to see when your organization is updating to the Summer ’23 release.</<p>\n        <br>\n        <br>\n        <p>Note: Sandboxes update to the Summer ’23 release starting on  May 10, 2023.</<p>"
+    },
+    {
+      "DeveloperName": "GuestUserPSLUpdate",
+      "Title": "Remove Guest User Assignments from Permission Sets Associated with Permission Set Licenses with Restricted Object Permissions",
+      "Status": "Info",
+      "DueDate": "2022-09-01",
+      "ReleaseLabel": "Winter '23",
+      "Description": "<p>To improve the security of your data, Salesforce is removing guest user assignments from permission sets and permission set groups associated with permission set licenses that contain View All, Modify All, edit, and delete object permissions. After the permission set or permission set group assignment is removed, guest user assignments of permission set licenses with these restricted permissions have no effect. The only object permissions allowed for guest users are read and create. Going forward, you can no longer assign guest users permission sets or permission set groups that are associated with these permission set licenses and contain the restricted permissions.</p>\n        </br>\n        <p>Note: This update was originally called \"Remove Permission Set Licenses with View All, Modify All, Edit, and Delete Object Permissions from Guest Users.\"</p>"
+    },
+    {
+      "DeveloperName": "IAPermGuardFixForApex",
+      "Title": "Enforcing No-Argument Constructor on Apex Classes Used for Invocable Action Parameters",
+      "Status": "Revocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "<p>This update was scheduled to be enforced in Summer `26. Starting in Spring `26, Salesforce no longer enforces this update, but we recommend that you enable it. When this update is enabled, you get access to certain built-in Apex classes that are available to be used as invocable action parameters. Additionally, this update enforces the visibility of the no-argument constructor on any class. This release update was previously named Enforce Permission Requirements Defined on Built-In Apex Classes Used as Inputs.</p>\n                <p>If you don't enable this update, a versioned change enforces the constructor visibility requirement in API version 66.0 and later.  To retain the existing behavior, use API version 65.0 or earlier.</p>"
+    },
+    {
+      "DeveloperName": "IsTimeResumedInSameRunContext",
+      "Title": "Make Paused Flow Interviews Resume in the Same Context",
+      "Status": "Invoked",
+      "DueDate": "2023-09-01",
+      "ReleaseLabel": "Winter '24",
+      "Description": "With this update enabled, paused autolaunched flows resume in the same context as when they were paused. Also, for each flow that runs in API version 57.0 or later, user permission to run the flow is verified before an interview resumes. If your Process Builder processes launch flows that contain Pause elements, we recommend configuring those flows to run in API version 57.0 or later. Otherwise, this update can change the context of resumed interviews. Instead of resuming in system context without sharing, the process-launched flows resume in the context specified in the flow version properties."
+    },
+    {
+      "DeveloperName": "JapaneseKatakanaStyle",
+      "Title": "Review the Japanese Katakana Style Change",
+      "Status": "Info",
+      "DueDate": "2023-09-01",
+      "ReleaseLabel": "Winter '24",
+      "Description": "To improve the Japanese katakana translation for foreign language words, we plan to replace the current Japanese Industrial Standards (JIS) style with the 1991 Cabinet Notification Directive style in Winter ’24."
+    },
+    {
+      "DeveloperName": "LLoginFlowWarningReleaseUpdate",
+      "Title": "Summer ‘22 - You can now disable the rendering of new Login Flows in Lightning Runtime.",
+      "Status": "Info",
+      "DueDate": "2022-05-20",
+      "ReleaseLabel": "Spring '22",
+      "Description": "As of the Summer ‘22 release, customers can improve security by disabling the rendering of new Login Flows in Lightning Runtime."
+    },
+    {
+      "DeveloperName": "LightningOAuthScopeSecurityFix",
+      "Title": "Enforce OAuth Scope for Lightning Apps",
+      "Status": "Invoked",
+      "DueDate": "2021-09-01",
+      "ReleaseLabel": "Winter '22",
+      "Description": "To improve security, this update enforces the scope of an OAuth token used to authenticate a Lightning app. The scope of an OAuth token is defined in a connected app."
+    },
+    {
+      "DeveloperName": "LinkedInLeadGenApiMigrationReleaseUpdate",
+      "Title": "Review and Update Settings to Capture Leads from LinkedIn",
+      "Status": "Info",
+      "DueDate": "2024-12-15",
+      "ReleaseLabel": "16 Dec 2024",
+      "Description": "If you’re syncing leads from LinkedIn Lead Forms to Salesforce, you must manually disconnect your LinkedIn account, reconfigure the feature by enabling a new setting, then reconnect your account. Otherwise, LinkedIn leads will stop syncing when LinkedIn retires their legacy Ads Lead Sync APIs on December 16, 2024."
+    },
+    {
+      "DeveloperName": "LocaleFormatCRUC",
+      "Title": "Enable ICU Locale Formats",
+      "Status": "Revocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "Changes the way that dates, times, numbers, and currencies appear, using locale formats from the International Components for Unicode (ICU) library."
+    },
+    {
+      "DeveloperName": "MandatoryChatterEmailFieldUpdate",
+      "Title": "Require Email Address for Chatter Email Notifications to be Sent",
+      "Status": "Info",
+      "DueDate": "2023-09-01",
+      "ReleaseLabel": "Winter '24",
+      "Description": "Salesforce enforces this update in Winter ’24 to follow the latest security recommendations. Administrators must provide an Email Address for Chatter email notifications to continue to be sent."
+    },
+    {
+      "DeveloperName": "MngdCtrlActionAccessCRUC",
+      "Title": "Disable Access to Non-global Controller Methods in Managed Packages",
+      "Status": "Invoked",
+      "DueDate": "2021-05-01",
+      "ReleaseLabel": "Summer '21",
+      "Description": "This update corrects access controls on Apex controller methods in managed packages. When this update is enabled, only methods marked with the global access modifier are accessible by Aura components from outside the package namespace.<br/> These access controls prevent you from using unsupported API methods that the package author didn’t intend for global access."
+    },
+    {
+      "DeveloperName": "NbaConsoleContextAgnostic",
+      "Title": "Control NBA Widget Refresh in Lightning Console Tabs",
+      "Status": "Invocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "By default, NBA (Next Best Action) widgets refresh every time a user switches between Lightning console tabs. This update allows you to disable tab-switch refresh behavior, making NBA widgets refresh only when the user is on the tab and a change is made on the page."
+    },
+    {
+      "DeveloperName": "NewOrderSaveLogicCRUC",
+      "Title": "Enable New Order Save Behavior",
+      "Status": "Revocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "After the New Order Save Behavior is enabled, whenever an order product update causes a change to the parent order, Salesforce runs custom application logic. Previously, in this scenario, Salesforce didn’t correctly evaluate custom application logic on the parent record. Users will have the option to enable the new behavior in Winter &#39;21.\n                <br/><br/> Warning: Packages with orders created before Winter &#39;21 don't support the New Order Save Behavior release update by default. If you use a package involving orders, wait for confirmation from your package provider before enabling the release update."
+    },
+    {
+      "DeveloperName": "OAuthDeviceFlowRestrictionReleaseUpdate",
+      "Title": "Restrict the OAuth 2.0 Device Flow to Local External Client Apps",
+      "Status": "Info",
+      "DueDate": "2026-11-30",
+      "ReleaseLabel": "30 Nov 2026",
+      "Description": "To secure the OAuth 2.0 device flow, Salesforce is restricting this flow to local external client apps with a localhost callback URL. To prepare for this change, review your usage of the device flow and update your connected apps and external client apps to meet the new criteria. For connected apps, you must migrate to external client apps to continue using the device flow."
+    },
+    {
+      "DeveloperName": "OAuthUsrAgtFlowsEOLReleaseUpdate",
+      "Title": "OAuth User-Agent and Hybrid User-Agent Flows Retirement",
+      "Status": "Info",
+      "DueDate": "2027-02-20",
+      "ReleaseLabel": "20 Feb 2027",
+      "Description": "Salesforce is retiring the OAuth user-agent flow and the OAuth hybrid user-agent flow. For better security, update your integrations to use the OAuth web-server flow or hybrid web-server flow with the Proof Key for Code Exchange (PKCE) extension."
+    },
+    {
+      "DeveloperName": "OrderManagementFeeTaxFixReleaseUpdate",
+      "Title": "Determine the fee tax when adjustments and adjustments taxes are included in the tax rate calculation",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "With this update, the fee tax is calculated correctly when adjustments and adjustments taxes are included in that tax rate calculation."
+    },
+    {
+      "DeveloperName": "PDContentSniffingProtectionUpdate",
+      "Title": "Enable Content Sniffing Protection",
+      "Status": "Invoked",
+      "DueDate": "2023-05-01",
+      "ReleaseLabel": "Summer '23",
+      "Description": "Help shield your org and network from malicious attacks with content sniffing protection. This change helps prevent the browser from loading scripts disguised as other file types when your users access external content and websites from Salesforce."
+    },
+    {
+      "DeveloperName": "ProcessInstanceWorkItemGuestUserReleaseUpdate",
+      "Title": "Prevent Guest User from Editing or Deleting Approval Requests",
+      "Status": "Invoked",
+      "DueDate": "2024-09-01",
+      "ReleaseLabel": "Winter '25",
+      "Description": "This update prevents guest users from editing, reassigning, or deleting approval request records. Guest users can still approve, reject, or recall approval request records."
+    },
+    {
+      "DeveloperName": "ProductOWDGuestUserReleaseUpdate",
+      "Title": "Retain Guest Users’ Access to Products",
+      "Status": "Info",
+      "DueDate": "2022-01-01",
+      "ReleaseLabel": "Spring '22",
+      "Description": "To better protect your Salesforce org, this update changes how unauthenticated guest access to product records (the Product2 object) is controlled. The product organization-wide sharing default for external users is no longer applied to guest users. The organization-wide default is set to Private for guest users and can’t be changed. To retain guest users’ access to products, create guest user sharing rules."
+    },
+    {
+      "DeveloperName": "ProductOWDReleaseUpdate",
+      "Title": "Set Organization-Wide Sharing Defaults for Products",
+      "Status": "Info",
+      "DueDate": "2022-01-01",
+      "ReleaseLabel": "Spring '22",
+      "Description": "To better protect your data, this update does the following:\n            \n            <ul>\n                <li>In Winter ’22, adds organization-wide sharing settings for product records</li>\n                <li>As of Spring ’22, in new orgs only, sets the organization-wide sharing default for products to Private for external users</li>\n            </ul>"
+    },
+    {
+      "DeveloperName": "ProfileFilteringEnabledReleaseUpdate",
+      "Title": "Enable Profile Filtering",
+      "Status": "Pending",
+      "DueDate": "2026-09-01",
+      "ReleaseLabel": "Winter '27",
+      "Description": "Profile filtering limits users from viewing any profile names other than their own unless they're assigned the View All Profiles permission. To improve the security of your Salesforce org, Salesforce is enabling the Profile Filtering setting by default."
+    },
+    {
+      "DeveloperName": "RoleHierarchySecuredForProductionReleaseUpdate",
+      "Title": "Enable Secure Roles Behavior and Update Sharing Group References in Production Orgs",
+      "Status": "Invoked",
+      "DueDate": "2025-09-01",
+      "ReleaseLabel": "Winter '26",
+      "Description": "<p>To prevent unintended access for external site users if you enable digital experiences, Salesforce is securing access to records shared with roles and subordinates. To prepare for this change, update code and customizations that reference the Roles and Subordinates group to instead reference Roles and Internal Subordinates. Although Salesforce dynamically converts outdated references during a transition period, you must eventually update all code and customizations.</p>\n            <br/>\n            <p>Use this release update only in production orgs. Salesforce provided a separate release update for implementing these changes in sandboxes that was enforced in Summer ’25.</p>"
+    },
+    {
+      "DeveloperName": "RoleHierarchySecuredReleaseUpdate",
+      "Title": "Enable Secure Roles Behavior and Update Sharing Group References in Sandboxes",
+      "Status": "Invoked",
+      "DueDate": "2025-05-01",
+      "ReleaseLabel": "Summer '25",
+      "Description": "<p>This release update is intended for tracking enforcement in sandbox orgs. For this release update, there’s no action required in production orgs, though you can use this release update to begin testing this change in production. Salesforce plans to provide a separate release update for these changes for production orgs in Summer ’25 and enforce it in Winter ’26.</p>\n            <br/>\n            <p>To prevent unintended access for external site users if you enable digital experiences, Salesforce is securing access to records shared with roles and subordinates in non-preview sandbox orgs. To prepare for this change, update code and customizations that reference the Roles and Subordinates group to instead reference Roles and Internal Subordinates. Although Salesforce dynamically converts outdated references during a transition period, you must eventually update all code and customizations.</p>"
+    },
+    {
+      "DeveloperName": "RollbackOnErrApexIA",
+      "Title": "Enforce Rollbacks for Apex Action Exceptions in REST API",
+      "Status": "Revocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This update was scheduled to be enforced in Spring ’25. Starting Spring ’25, Salesforce no longer enforces this update, but recommends enabling it. Once enabled, it preserves data integrity by rolling back transactions that end in an exception. When you execute an Apex action using the REST API, the API call doesn’t change Salesforce data if that exception occurs."
+    },
+    {
+      "DeveloperName": "SAMLJakartaOpenSAMLV5ReleaseUpdate",
+      "Title": "Verify SAML Integrations",
+      "Status": "Info",
+      "DueDate": "2025-05-01",
+      "ReleaseLabel": "Summer '25",
+      "Description": "Salesforce is upgrading its SAML framework as part of regular ongoing maintenance. This update can impact any integrations that use SAML, including single sign-on (SSO) and single logout. To avoid potential service interruptions, test your SAML integrations. You can start testing when Summer ’25 sandboxes become available. The deadline to complete testing can be different from the deadline that’s displayed at the top of this release update. To learn how to find the deadline for your instance, check the “How is My Org Impacted?” section."
+    },
+    {
+      "DeveloperName": "SalesforceObjectIdWarningReleaseUpdate",
+      "Title": "Salesforce Object ID is being refined.",
+      "Status": "Info",
+      "DueDate": "2023-09-01",
+      "ReleaseLabel": "Winter '24",
+      "Description": "As of this release, Instance or POD identifiers can be up to 3 characters"
+    },
+    {
+      "DeveloperName": "SalesforceToSalesforceRetirement",
+      "Title": "Salesforce to Salesforce Retirement",
+      "Status": "Info",
+      "DueDate": "2027-01-01",
+      "ReleaseLabel": "Spring '27",
+      "Description": "The Salesforce to Salesforce product will be retired in the Spring ’27 release. Salesforce has more robust and integrated solutions that align with modern business needs. To prevent disruption when Salesforce ends support for the Salesforce to Salesforce product, make sure you migrate your integrations to one of these recommended solutions: Partner Cloud, Data Cloud One, MuleSoft Anypoint, or MuleSoft for Flow."
+    },
+    {
+      "DeveloperName": "ScopedModalsCRUC",
+      "Title": "Keep Working with Tab-Focused Dialogs",
+      "Status": "Invocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This release update has been postponed indefinitely while we change the implementation to reduce customer impact. The release update won’t be enforced in its present form. Don’t enable it."
+    },
+    {
+      "DeveloperName": "SecureRedirectionForFlows",
+      "Title": "Enable Secure Redirection for Screen Flows",
+      "Status": "Revocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "This update was scheduled to be enforced in Spring ’25. Starting Spring ’25, Salesforce no longer enforces this update, but recommends enabling it. Once enabled, it applies stricter validation to the flow URL parameter that determines where you redirect users after they complete a screen flow."
+    },
+    {
+      "DeveloperName": "SoapLoginRetirementNoTestFeatureReleaseUpdate",
+      "Title": "SOAP API login() Retirement",
+      "Status": "Info",
+      "DueDate": "2027-05-01",
+      "ReleaseLabel": "Summer '27",
+      "Description": "In the Summer ‘27 release, the SOAP API login() call in SOAP API versions 31.0 through 64.0 will no longer be supported and no longer available. For better security, switch to using External Client Applications for authentication prior to the release rollout."
+    },
+    {
+      "DeveloperName": "StackedModalManagerReleaseUpdate",
+      "Title": "Enable LWC Stacked Modals",
+      "Status": "Invoked",
+      "DueDate": "2025-01-01",
+      "ReleaseLabel": "Spring '25",
+      "Description": "This update replaces Aura modals with LWC modals for improved performance. When you apply the update, there are minor changes to modal behavior. The update also enables Dynamic Forms support in Create from Lookup for most LWC-enabled objects. This update is available starting in Summer '24 and will be enforced in Spring '25."
+    },
+    {
+      "DeveloperName": "StandardProfileModificationReleaseUpdate",
+      "Title": "Disable Standard Object Edits on Standard Profile",
+      "Status": "Pending",
+      "DueDate": "2021-05-01",
+      "ReleaseLabel": "Summer '21",
+      "Description": "Salesforce reserves standard object permissions in standard profiles, so modifications are not allowed. This update enforces a validation to block modifications to standard profile object permissions to ensure org integrity."
+    },
+    {
+      "DeveloperName": "TinyMceServiceEmailEditorReleaseUpdate",
+      "Title": "Transition to the Lightning Editor for Email Composers in Email-to-Case",
+      "Status": "Invocable",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "When enabled, this release update replaces the email editor in the docked and case feed email composers. The new email editor is available in Lightning Experience."
+    },
+    {
+      "DeveloperName": "TspModifyAccessRestrictedReleaseUpdate",
+      "Title": "New Restrictions for Managing Transaction Security Policies",
+      "Status": "Invoked",
+      "DueDate": "2026-07-13",
+      "ReleaseLabel": "13 July 2026",
+      "Description": "Users now require the ModifyTransactionSecurityPolicies permission and Step-up authentication to create, update, and delete Transaction Security Policies. Previously, only the CustomizeApplication permission was required."
+    },
+    {
+      "DeveloperName": "TwitterAuthProviderEOLReleaseUpdate",
+      "Title": "Salesforce-Managed X (Formerly Twitter) Authentication Provider Retirement",
+      "Status": "Info",
+      "DueDate": "2026-05-01",
+      "ReleaseLabel": "Summer '26",
+      "Description": "The Salesforce-managed app for the X (formerly Twitter) authentication provider is being retired. This update breaks any single sign-on (SSO) configurations that use the Salesforce-managed X app. To avoid disruptions, create a custom X app and update your SSO configurations."
+    },
+    {
+      "DeveloperName": "UpgradeToEnhancedLWRSitesReleaseUpdate",
+      "Title": "Upgrade to Enhanced LWR Sites",
+      "Status": "Info",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "Upgrade existing LWR sites to enhanced LWR sites to take advantage of the latest features, including partial deployment, enhanced CMS workspaces and channels, expression-based visibility, and more."
+    },
+    {
+      "DeveloperName": "UseSharingForFlowOrchObjectsReleaseUpdate",
+      "Title": "Enable Sharing for Flow Orchestration objects",
+      "Status": "Invoked",
+      "DueDate": "2023-05-01",
+      "ReleaseLabel": "Summer '23",
+      "Description": "This update allows admins to grant access to Flow Orchestration objects using profiles, role hierarchies, and sharing rules. You no longer use the Manage Flow permission to give users access to Flow Orchestration objects. Before enabling this update, contact Salesforce to reset the owner fields for Flow Orchestration records that were created prior to Winter '23."
+    },
+    {
+      "DeveloperName": "UserDefinedLabel",
+      "Title": "Grant Access to the Label Object in Custom Profiles to Continue Using To Do List Labels",
+      "Status": "Info",
+      "DueDate": null,
+      "ReleaseLabel": null,
+      "Description": "The Label object is now available in the API. (API name: UserDefinedLabel) This change supports the record labeling capability in Sales Cloud. Standard profiles include access to the Label object automatically. If you use custom profiles, add access to the Label object to let users assign labels to records and continue using labels in the To Do List."
+    },
+    {
+      "DeveloperName": "VerifyYourReturnAddressForSenderVerification",
+      "Title": "Verify Your Return Email Address for Sender Verification",
+      "Status": "Info",
+      "DueDate": "2025-01-01",
+      "ReleaseLabel": "Spring '25",
+      "Description": "To comply with increased email security standards, you're required to verify the Email Address in My Email Settings."
+    },
+    {
+      "DeveloperName": "VisualforceELApexModifierEnforcement",
+      "Title": "Enable Visualforce Expression Language Apex Method Access Modifier Enforcement",
+      "Status": "Invoked",
+      "DueDate": "2022-01-01",
+      "ReleaseLabel": "Spring '22",
+      "Description": "This update throws an error if the Visualforce Expression Language can't access the Apex method due to access modifier visibility."
+    },
+    {
+      "DeveloperName": "VisualforceELApexModifierGetSetEnforcement",
+      "Title": "Validate Getter and Setter Access Modifier Enforcement During Visualforce Expression Language Parsing",
+      "Status": "Invoked",
+      "DueDate": "2022-09-01",
+      "ReleaseLabel": "Winter '23",
+      "Description": "This release update has been postponed indefinitely and is not enforced in its present form."
+    },
+    {
+      "DeveloperName": "VisualforceEscapeApexInputLabel",
+      "Title": "Escape the label attribute of apex:inputField elements to prevent cross-site scripting in Visualforce pages (2023)",
+      "Status": "Invoked",
+      "DueDate": "2023-01-01",
+      "ReleaseLabel": "Spring '23",
+      "Description": "To prevent malicious code from executing in <a href=\"/HelpAndTrainingDoor?version=2&resource=https%3A%2F%2Fdeveloper.salesforce.com%2Fdocs%2Fatlas.en-us.pages.meta%2Fpages%2Fpages_security_tips_xss.htm\">cross-site scripting (XSS) attacks</a> on your Visualforce pages, this release update escapes the label attribute of your apex:inputField elements."
+    },
+    {
+      "DeveloperName": "VisualforceJSRemotingEnforcement",
+      "Title": "Enable Visualforce JavaScript Remoting Enforcement",
+      "Status": "Invoked",
+      "DueDate": "2021-09-01",
+      "ReleaseLabel": "Winter '22",
+      "Description": "This update will throw an error if the Visualforce JavaScript <code>$RemoteAction.ApexController.method</code> function is invoked improperly."
+    },
+    {
+      "DeveloperName": "VisualforceJSRemotingEnforcementWithPerm",
+      "Title": "Enable Visualforce JavaScript Remoting Enforcement",
+      "Status": "Invoked",
+      "DueDate": "2022-09-01",
+      "ReleaseLabel": "Winter '23",
+      "Description": "This update will throw an error if the Visualforce JavaScript <code>$RemoteAction.ApexController.method</code> function is invoked improperly."
+    },
+    {
+      "DeveloperName": "VisualforceJSRemotingJsonAccessEnforcement",
+      "Title": "Enable JsonAccess Annotation Validation for the Visualforce JavaScript Remoting API",
+      "Status": "Pending",
+      "DueDate": "2024-01-01",
+      "ReleaseLabel": "Spring '24",
+      "Description": "To prevent unauthorized serialization and deserialization across packaging namespaces, this update validates the <code>JsonAccess</code> annotation of your Apex classes."
+    }
+  ],
+  "message": null
+}

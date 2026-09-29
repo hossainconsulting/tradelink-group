@@ -1,0 +1,6 @@
+{
+  "query": "SELECT Name, Metadata FROM WorkflowRule",
+  "status": 0,
+  "count": 0,
+  "records": []
+}

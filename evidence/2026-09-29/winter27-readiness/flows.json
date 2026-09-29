@@ -1,0 +1,11 @@
+{
+  "query": "SELECT DeveloperName, ActiveVersionId FROM FlowDefinition",
+  "status": 0,
+  "records": [
+    {
+      "DeveloperName": "sfdc_default_ReportExport_Protection_Flow",
+      "ActiveVersionId": null
+    }
+  ],
+  "message": null
+}

@@ -1,0 +1,12 @@
+{
+  "query": "SELECT Name, InstanceName, IsSandbox FROM Organization",
+  "status": 0,
+  "records": [
+    {
+      "Name": "TradeLink Group",
+      "InstanceName": "USA876",
+      "IsSandbox": false
+    }
+  ],
+  "message": null
+}

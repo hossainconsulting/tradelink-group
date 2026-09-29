@@ -1,0 +1,11 @@
+{
+  "metadataType": "Workflow",
+  "status": 0,
+  "components": [
+    {
+      "fullName": "Case",
+      "namespacePrefix": ""
+    }
+  ],
+  "message": null
+}
