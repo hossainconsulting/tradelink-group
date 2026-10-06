@@ -6,6 +6,7 @@
 
 **Certification track:** Advanced Administrator, Sales Cloud Consultant, Service Cloud Consultant
 **Salesforce org:** Developer Edition (CLI alias `tradelink`)
+**Lab:** working copy maintained on `salesforce-dev` (Ubuntu 24.04 LTS, VirtualBox VM on my own hardware). `salesforce-dev` is my role name for the Ubuntu lab.
 **Scope:** 8 sprints | trust tickets, security model reset, equipment registry, automation suite, acquisition data migration, contact centre SLAs, board dashboard, packaged go-live
 
 ## The brief
